@@ -537,13 +537,15 @@ a:hover, a:active, a:focus {
 #pricing .pricing-plan {
   
   background-color: #ffffff;
+  background-color: transparent;
   border-radius: 2px;
   margin-bottom: 32px;
 }
  
 .img-rounded{
-  width: 50px;
+    width: 200px;
     height: auto;
+    mix-blend-mode: multiply;
 }
 
 #pricing .pricing-plan .pricing-month {
