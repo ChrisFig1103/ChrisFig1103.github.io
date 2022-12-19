@@ -652,9 +652,10 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 footer {
-  background-color: #282828;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  background-color: #000000;
+  padding-top: 5px;
+  padding-bottom: 5px;
+   
 }
 
 footer span {
@@ -664,6 +665,7 @@ footer span {
 
 footer p {
   padding-top: 16px;
+  font-size: 10px;
 }
 
 
