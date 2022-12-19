@@ -64,7 +64,7 @@ hr {
 }
 
 .section-btn {
-  background-color: #000;
+  background-color: #d4af37 ;
   border: 2px solid transparent;
   border-radius: 100px;
   color: #000000;
@@ -77,7 +77,7 @@ hr {
 }
 
 .section-btn:hover {
-  background: transparent;
+  background: #e0c56e ;
   border-top-color: #ffffff;
   border-right-color: #222;
   border-bottom-color: #ffffff;
@@ -311,7 +311,8 @@ a:hover, a:active, a:focus {
 }
 
 #home .section-btn:hover {
-  background: transparent !important;
+  color: #000;
+  background: #e0c56e !important;
 }
 
 
