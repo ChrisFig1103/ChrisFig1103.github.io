@@ -304,7 +304,9 @@ a:hover, a:active, a:focus {
 #newsletter p {
   color: #f0f0f0;
   letter-spacing: 1px;
+ 
 }
+ 
 
 #home .section-btn {
   background: #D4AF37;
@@ -325,6 +327,7 @@ a:hover, a:active, a:focus {
   height: 100vh;
   background: #79443b url('../images/Nosotros.jpg') ;
   background-position: center center;
+  color: white;
 }
  
 #about img {
@@ -335,7 +338,7 @@ a:hover, a:active, a:focus {
 #about .about-thumb {
   margin-bottom: 32px;
   position: relative;
-  text-align: center;
+  text-align: right;
 }
 
 #about .about-overlay h3 {
@@ -645,6 +648,7 @@ a:hover, a:active, a:focus {
 ----------------------------------------*/
  #myCarousel{
    padding: 0px;
+   
  }
 
 /*---------------------------------------
@@ -666,6 +670,7 @@ footer span {
 footer p {
   padding-top: 16px;
   font-size: 10px;
+  font-weight: bold;
 }
 
 
