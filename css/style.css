@@ -464,6 +464,36 @@ a:hover, a:active, a:focus {
   color: #D4AF37;
 }
 
+/*---------------------------------------
+    Maridaje section              
+-----------------------------------------*/
+#novedades{
+  height: 100vh;
+  background: #000;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+ #novedades .container{
+  background: white;
+  padding-top: 100px;
+  width: 100%;
+  text-align: center;
+   
+ }
+ #novedades .container h1{
+  color: #000;
+   
+ }
+ #novedades .container p{
+  color: #000;
+
+ }
 
 
 /*---------------------------------------
