@@ -424,8 +424,8 @@ a:hover, a:active, a:focus {
   tequila section              
 -----------------------------------------*/
 #tequila{
-  height: 100vh;
-  background: #79443b url('../images/bg2.jpg')  ;
+  height: 75vh;
+  background: #79443b url('../images/calavera.jpeg')  ;
   
    
 }
@@ -438,8 +438,12 @@ a:hover, a:active, a:focus {
   text-align: center;
 }
 
-#tequila .tequila-overlay h3 {
+#tequila  h1{
+  padding-top: 30px;
+}
+#tequila  h3 {
   padding-bottom: 0px;
+  color: white;
 }
 
 #tequila .tequila-overlay {
@@ -617,14 +621,16 @@ a:hover, a:active, a:focus {
   grid-template-rows: 1fr 1fr;
 }
 
+#nuestro_tequila .tequila-month {
+  grid-row: 1;
+}
+
 #nuestro_tequila .tequila-plan {
   background-color: #ffffff;
   background-color: transparent;
   border-radius: 2px;
   margin-bottom: 32px;
-}
-#nuestro_tequila .tequila-plan .tequila-month {
-  padding: 14px 10px 6px 10px;
+  grid-row: 2;
 }
 
 .img-rounded{
@@ -633,31 +639,10 @@ a:hover, a:active, a:focus {
     mix-blend-mode: multiply;
 }
  
+
  
 
-#nuestro_tequila .tequila-plan .tequila-month button{
-  margin-left: 150px;
-}
-
-#nuestro_tequila .tequila-plan .tequila-month h2 {
-  color: #D4AF37;
-}
-
-#nuestro_tequila .tequila-plan .tequila-month h3 {
-  font-size: 15px;
-  color: #D4AF37;
-  text-align: center;
-}
-
-#nuestro_tequila .tequila-plan .section-btn {
-  background: #D4AF37; 
-}
-
-#nuestro_tequila .tequila-plan .section-btn:hover {
-  background-color: #ffffff;
-  color: #222;
-  
-}
+ 
 
 /*---------------------------------------
     Newsletter section              
