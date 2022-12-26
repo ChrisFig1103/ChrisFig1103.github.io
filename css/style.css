@@ -316,11 +316,11 @@ a:hover, a:active, a:focus {
    About section              
 -----------------------------------------*/
 #about{
-  height: 65vh;
-  background: #fbf1de url('../images/Nosotros.jpg')  repeat-y;
-  background-size: 50%  auto ;
+  height: 50vh;
+  background: #fbf1de url('../images/Nosotros.jpg') fixed;
+  background-size: auto ;
   color: white;
-  background-position: right;
+   
 }
  
 #about2 .container .row {
@@ -332,10 +332,10 @@ a:hover, a:active, a:focus {
    About2 section              
 -----------------------------------------*/
 #about2{
-  height: 65vh;
-  background: #fbf1de url('../images/Nosotros.jpg')  repeat-y;
-  background-size: 50% auto;
-  background-position: left;
+  height: 50vh;
+  background: #fbf1de url('../images/about.jpg') fixed;
+  background-size: auto;
+   
   color: white;
   font-weight: bold;
 }
@@ -1125,6 +1125,9 @@ footer p {
     margin-top: 62px;
   }
 
+  #about2 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1137,7 +1140,7 @@ footer p {
     padding-bottom: 32px;
   }
 
-  #about,
+  #about,#about2,
   #screenshot,
   #pricing, #newsletter {
     padding-top: 60px;
