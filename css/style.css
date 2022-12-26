@@ -264,13 +264,9 @@ a:hover, a:active, a:focus {
   background-color: transparent;
 }
 
- 
-
-
 /*---------------------------------------
     Home section              
 -----------------------------------------*/
-
 #home {
   background: #d46036 url('../images/background_principal.jpeg') no-repeat;
   background-attachment: fixed;
@@ -289,7 +285,6 @@ a:hover, a:active, a:focus {
   position: relative;
   transform-style: preserve-3d;
 }
-
  
 #home img {
   width: 100%;
@@ -307,7 +302,6 @@ a:hover, a:active, a:focus {
   letter-spacing: 1px;
  
 }
- 
 
 #home .section-btn {
   background: #D4AF37;
@@ -318,104 +312,94 @@ a:hover, a:active, a:focus {
   background: #e0c56e !important;
 }
  
-
-
 /*---------------------------------------
    About section              
 -----------------------------------------*/
 #about{
-  height: 70vh;
-  background: #79443b url('../images/Nosotros.jpg') ;
-  background-position: center center;
+  height: 65vh;
+  background: #fbf1de url('../images/Nosotros.jpg')  repeat-y;
+  background-size: 50%  auto ;
   color: white;
+  background-position: right;
 }
  
-#about img {
-  width: 100%;
-
-}
-
-#about .about-thumb {
-  margin-bottom: 32px;
-  position: relative;
+#about2 .container .row {
+  padding-top: 20px;
   text-align: right;
 }
 
-#about .about-overlay h3 {
-  padding-bottom: 0px;
+/*---------------------------------------
+   About2 section              
+-----------------------------------------*/
+#about2{
+  height: 65vh;
+  background: #fbf1de url('../images/Nosotros.jpg')  repeat-y;
+  background-size: 50% auto;
+  background-position: left;
+  color: white;
+  font-weight: bold;
 }
-
-#about .about-overlay {
-  background-color: rgba(250,250,250,0.9);
-  border-radius: 2px;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  height: 100;
-  overflow: hidden;
-  transition: height 450ms;
+#about2 .container .row {
+  padding-top: 20px;
+  text-align: left;
+   
 }
-
-#about .about-thumb:hover .about-overlay {
-  height: 100%;
-  background-color: #ffffff;
-  color: #79443b;
-  padding-top: 30%;
-  opacity: 0.9;
-}
-
-#about .about-thumb:hover h4 {
-  color: #D4AF37;
-}
-
 
 /*---------------------------------------
    artesanos section              
 -----------------------------------------*/
-#artesanos{
-  height: 70vh;
-  background: #40793b url('../images/artesanos.jpg')  ;
+#artesanos {
+  background: #fbf1de ;
+  transform-style: preserve-3d;
   background-attachment: fixed;
   background-position: center center;
+  height: 100vh;
 }
  
-#artesanos img {
-  width: 100%;
 
-}
-
-#artesanos .artesanos-thumb {
-  margin-bottom: 32px;
-  position: relative;
-  text-align: center;
-}
-
-#artesanos .artesanos-overlay h3 {
-  padding-bottom: 0px;
-}
-
-#artesanos .artesanos-overlay {
-  background-color: rgba(250,250,250,0.9);
-  border-radius: 2px;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  height: 100;
-  overflow: hidden;
-  transition: height 450ms;
-}
-
-#artesanos .artesanos-thumb:hover .artesanos-overlay {
-  height: 100%;
+#artesanos .artesanos-plan {
+  
   background-color: #ffffff;
-  color: #79443b;
-  padding-top: 30%;
-  opacity: 0.9;
+  background-color: transparent;
+  border-radius: 2px;
+  margin-bottom: 32px;
+}
+ 
+.img-rounded{
+    width: auto;
+    height: auto;
+     
+     
 }
 
-#artesanos .artesanos-thumb:hover h4 {
+#artesanos .pricing-plan .pricing-month {
+  padding: 14px 10px 6px 10px;
+}
+
+#artesanos .pricing-plan .pricing-month img{
+  padding: 14px 10px 6px 10px;
+}
+
+
+#artesanos .pricing-plan .pricing-month h2 {
+  font-size: 52px;
   color: #D4AF37;
 }
+
+#artesanos .pricing-plan .section-btn {
+  background: #D4AF37;
+  position: relative;
+  top: 20px;
+}
+
+#artesanos .pricing-plan .section-btn:hover {
+  background-color: #ffffff;
+  color: #222;
+}
+
+
+
+
 
 
 /*---------------------------------------
@@ -635,10 +619,166 @@ a:hover, a:active, a:focus {
     mix-blend-mode: multiply;
 }
  
+/*
+---------------------------------------------
+chefs
+---------------------------------------------
+*/
+
+#chefs {
+  padding-top: 120px;
+  height: 100vh;
+
+}
+
+#chefs h2{
+  color: #000;
+}
+
+#chefs .section-heading {
+  margin-bottom: 70px;
+}
+
+#chefs .section-heading h6 {
+  padding-left: 0px;
+}
+
+#chefs .section-heading h6:before {
+  display: none;
+}
+
+#chefs .chef-item {
+  text-align: center;
+  border: 1px solid #afafaf;
+  padding: 5px;
+  transition: all .5s;
+  border-radius: 3px;
+}
+
+ 
+
+#chefs .chef-item:hover .down-content h4 {
+  color:#d4af37
+}
+
+#chefs .chef-item .thumb {
+  position: relative;
+}
+
+#chefs .chef-item .thumb img {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+ 
+
+#chefs .chef-item .thumb ul.social-icons {
+  position: absolute;
+  z-index: 11;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  transition: all .5s;
+  opacity: 0;
+  visibility: hidden;
+}
 
  
 
  
+
+#chefs .chef-item:hover .overlay {
+  opacity: .9;
+  visibility: visible;
+}
+
+
+#chefs .chef-item .down-content {
+  padding: 20px 0px;
+}
+
+#chefs .chef-item .down-content h4 {
+  transition: all .3s;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+#chefs .chef-item .down-content span {
+  font-size: 14px;
+  color: #2a2a2a;
+}
+
+
+
+ /*---------------------------------------
+    Our Blog              
+-----------------------------------------*/
+
+section.our-blog {
+	background-color: #fbf1de;
+	padding: 100px 0px 70px 0px;
+}
+
+.our-blog .heading h2 {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 80px;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #121212;
+}
+
+.blog-post img {
+	width: 50%;
+	overflow: hidden;
+}
+
+.blog-post {
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.blog-post .right-content {
+	background-color: #fff;
+	width: 50%;
+	float: right;
+	padding: 20px;
+}
+
+.blog-post .right-content h4 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 8px;
+	font-family: 'Spectral', serif;
+	font-size: 21px;
+	color: #121212;
+}
+
+.blog-post .right-content span {
+	font-size: 13px;
+	color: #7a7a7a;
+	display: inline-block;
+	margin-bottom: 18px;
+}
+
+.blog-post .right-content .text-button a {
+	font-size: 13px;
+	font-weight: bold;
+	color: #D4AF37;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 12px;
+	display: inline-block;
+}
+
+ 
+
+
 
 /*---------------------------------------
     Newsletter section              
