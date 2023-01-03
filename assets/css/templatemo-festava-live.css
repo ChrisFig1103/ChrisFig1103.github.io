@@ -832,6 +832,7 @@ strong {
   position: relative;
   overflow: hidden;
   padding-bottom: 30px;
+  color: #d4af37;
 }
 
 .site-footer-top {
@@ -854,7 +855,7 @@ strong {
 
 .site-footer-link,
 .copyright-text {
-  color: var(--white-color);
+  color: var(--primary-color);
 }
 
 .site-footer-links {
