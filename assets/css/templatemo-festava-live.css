@@ -826,6 +826,7 @@ strong {
 /*---------------------------------------
   SITE FOOTER              
 -----------------------------------------*/
+ 
 .site-footer {
   background-color: var(--dark-color);
   position: relative;
@@ -843,8 +844,8 @@ strong {
 }
 
 .site-footer-bottom {
+  background-color: var(--dark-color);
   border-top: 1px solid #1f1c1c;
-  margin-top: 60px;
 }
 
 .site-footer-title {
@@ -887,7 +888,6 @@ strong {
 }
 
 .social-icon-link {
-   
   border-radius: var(--border-radius-large);
   color: var(--white-color);
   font-size: var(--copyright-font-size);
