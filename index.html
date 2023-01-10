@@ -14,7 +14,7 @@
 			<img src="/assets/images/logoreducido.png">
 		</div>
 		<div class="login-content">
-			<form action="landing_page.html"> 
+			<form action="landing_page.html" id="form"> 
 				<h2 class="title">Bienvenido</h2>
 				<h3 class="title">Por favor ingrese su fecha de nacimiento para acceder a este sitio.</h3>
            		<br>
@@ -23,7 +23,7 @@
            		   </div>
            		   <div class="div">
            		   		<h5>MM</h5>
-           		   		<input type="number" class="input" number min="1" max="12">
+           		   		<input id="mm" type="number" class="input" number min="1" max="12" required>
            		   </div>
            		</div>
 				   <div class="input-div one">
@@ -31,7 +31,7 @@
 					</div>
 					<div class="div">
 							<h5>DD</h5>
-							<input type="number" class="input" number min="1" max="31">
+							<input id="dd" type="number" class="input" number min="1" max="31" required>
 					</div>
 				 </div>
            		<div class="input-div pass">
@@ -39,7 +39,7 @@
            		   </div>
            		   <div class="div">
            		    	<h5>YYYY</h5>
-           		    	<input type="number" class="input" number min="1900" max="2022">
+           		    	<input id="yyyy" type="number" class="input" number min="1900" max="2022" required>
             	   </div>
             	</div>
             	<input type="submit" class="btn" value="Ingresar">
