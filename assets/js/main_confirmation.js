@@ -1,4 +1,4 @@
-const { format } = require("path");
+ 
 const date = new Date();
 
 const inputs = document.querySelectorAll(".input");
@@ -24,11 +24,3 @@ inputs.forEach(input => {
 	input.addEventListener("focus", addcl);
 	input.addEventListener("blur", remcl);
 });
-
-format.addEventListener('submit',(e) =>{
-	
-
-})
-
-//agrega id a elementos
-//agregar eventlistener
