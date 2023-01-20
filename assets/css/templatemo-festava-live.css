@@ -12,13 +12,10 @@ https://templatemo.com/tm-583-festava-live
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --sand-color:                   #fbf1de;   
-  --gold-color:                   #d4af37;
-  
-  --primary-color:                #d4af37;
-  --secondary-color:              #F8CB2E;
+  --primary-color:                #c99015;
+  --secondary-color:              #fcdc55;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #EE5007;
+  --custom-btn-bg-color:          #fcdc55;
   --custom-btn-bg-hover-color:    #c01f27;
   --dark-color:                   #000000;
   --p-color:                      #717275;
@@ -47,13 +44,10 @@ https://templatemo.com/tm-583-festava-live
 }
 
 body {
-  background-color: var(--sand-color);
+  background-color: var(--white-color);
   font-family: var(--body-font-family); 
+}
 
-}
-::-webkit-scrollbar{
-  display: none;
-}
 
 /*---------------------------------------
   TYPOGRAPHY               
@@ -650,7 +644,7 @@ strong {
   SCHEDULE              
 -----------------------------------------*/
 .schedule-section {
-  background-image: url('../images/nainoa-shizuru-unsplash-blur.jpg');
+  
   background-color: #242424;
   background-repeat: no-repeat;
   background-position: center;
@@ -699,16 +693,16 @@ strong {
   border-right-color: transparent;
 }
 
-.schedule-table .pop-background-image {
-  background-image: url('../images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg');
+.schedule-table .novedad_1-background-image {
+  background-image: url('../images/novedades1.jpg');
 }
 
-.schedule-table .rock-background-image {
-  background-image: url('../images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg');
+.schedule-table .novedad_2-background-image {
+  background-image: url('../images/novedades2.jpg');
 }
 
-.schedule-table .country-background-image {
-  background-image: url('../images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg');
+.schedule-table .novedad_3-background-image {
+  background-image: url('../images/novedades3.jpg');
 }
 
 .table-background-image-wrap {
@@ -826,13 +820,11 @@ strong {
 /*---------------------------------------
   SITE FOOTER              
 -----------------------------------------*/
- 
 .site-footer {
   background-color: var(--dark-color);
   position: relative;
   overflow: hidden;
   padding-bottom: 30px;
-  color: #d4af37;
 }
 
 .site-footer-top {
@@ -845,8 +837,8 @@ strong {
 }
 
 .site-footer-bottom {
-  background-color: var(--dark-color);
   border-top: 1px solid #1f1c1c;
+  margin-top: 60px;
 }
 
 .site-footer-title {
@@ -855,7 +847,7 @@ strong {
 
 .site-footer-link,
 .copyright-text {
-  color: var(--primary-color);
+  color: var(--white-color);
 }
 
 .site-footer-links {
@@ -884,20 +876,20 @@ strong {
 .social-icon-item {
   list-style: none;
   display: inline-block;
-  padding: 10%;
   vertical-align: top;
 }
 
 .social-icon-link {
+  background: var(--secondary-color);
   border-radius: var(--border-radius-large);
   color: var(--white-color);
   font-size: var(--copyright-font-size);
   display: block;
   margin-right: 10px;
   text-align: center;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 35px;
+  height: 35px;
+  line-height: 36px;
   transition: background 0.2s, color 0.2s;
 }
 
@@ -908,6 +900,19 @@ strong {
 
 .social-icon-link span {
   display: block;
+}
+
+.social-icon-link span:hover::before{
+  animation: spinAround 2s linear infinite;
+}
+
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 
