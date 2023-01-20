@@ -359,7 +359,7 @@ strong {
 }
 
 .sticky-wrapper.is-sticky .navbar {
-  background-color: var(--dark-color);
+  background-color: #f3f2f2;
 }
 
 .navbar {
@@ -382,7 +382,7 @@ strong {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--white-color);
+  color: #000000;
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-normal);
   position: relative;
@@ -946,7 +946,7 @@ strong {
   }
   
   .navbar {
-    background-color: var(--dark-color);
+    background-color: #f3f2f2;
   }
 
   .navbar-expand-lg .navbar-nav {
