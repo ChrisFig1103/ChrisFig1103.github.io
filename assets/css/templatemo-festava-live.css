@@ -1,3 +1,4 @@
+
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
@@ -586,7 +587,6 @@ strong {
 .artists-image {
   border-radius: var(--border-radius-medium);
   display: block;
-  width: 100%;
 }
 
 .artists-thumb:hover .artists-hover {
@@ -685,15 +685,18 @@ strong {
 }
 
 .schedule-table .novedad_1-background-image {
-  background-image: url('../images/novedades1.jpg');
+  background-image: url('../images/notfound');
+  background-color: #c99015;
 }
 
 .schedule-table .novedad_2-background-image {
-  background-image: url('../images/novedades2.jpg');
+  background-image: url('../images/notfound');
+  background-color: #c7460a
 }
 
 .schedule-table .novedad_3-background-image {
-  background-image: url('../images/novedades3.jpg');
+  background-image: url('../images/notfound');
+  background-color: #f0a5a5
 }
 
 .table-background-image-wrap {
