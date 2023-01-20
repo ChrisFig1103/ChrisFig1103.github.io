@@ -587,6 +587,8 @@ strong {
 .artists-image {
   border-radius: var(--border-radius-medium);
   display: block;
+  height: 420px;
+  width: 420px;
 }
 
 .artists-thumb:hover .artists-hover {
